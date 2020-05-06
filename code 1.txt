@@ -1,0 +1,17 @@
+#include<stdio.h>
+int i=-3;
+void f(int i)
+{
+  i++;
+  printf("%d",i);
+}
+void main()
+{
+  int i=2;
+  f(i);
+  printf("%d",i);
+}
+
+
+
+Output: 3 2
